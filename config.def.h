@@ -347,11 +347,8 @@ static const char *layoutmenu_cmd = "layoutmenu.sh";
 #if COOL_AUTOSTART_PATCH
 static const char *const autostart[] = {
 	"dwmblocks", NULL,
-	"compton", NULL,
-	"feh", "--bg-scale", "/home/boettcher/Pictures/windows.jpg", NULL,
-	"setxkbmap", "-option", "ctrl:nocaps", NULL,
-	"xcape", "-e", "'Control_L=Escape'", NULL,
-	"setxkbmap", "-layout us", "-option compose:ralt", NULL,	
+	"xcompmgr", NULL,
+	"feh", "--bg-scale", "~/Pics/tarkovsky_sacrafice.jpg", NULL,
 	NULL /* terminate */
 };
 #endif // COOL_AUTOSTART_PATCH
